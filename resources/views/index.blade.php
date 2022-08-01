@@ -41,7 +41,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h3 class="text-primary text-capitalize m-0">AC-Auto Crunchy</h3>
                         <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">Best machanics arround the world</h2>
-                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us Now</a>
+                        <a href="/register" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us Now</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -49,7 +49,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h3 class="text-primary text-capitalize m-0">AC-Auto Crunchy</h3>
                         <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">Fstest service</h2>
-                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us Now</a>
+                        <a href="/register" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us Now</a>
                     </div>
                 </div>
             </div>
@@ -125,48 +125,46 @@
             <div class="col-md-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-1.jpg" alt="Image">
-                        <i class="flaticon-barbell"></i>
+                        <img class="img-fluid mb-3 mb-sm-0" src="{{ asset('img/feature-1x.jpg') }}" alt="Image">
+
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Videos Instruction</h4>
-                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                        <h4 class="font-weight-bold">On Site Repairs </h4>
+                        <p>We have expert mechanics who will go to your vehicle’s location and will provide 300+ types of automobile services.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-2.jpg" alt="Image">
-                        <i class="flaticon-training"></i>
+                        <img class="img-fluid mb-3 mb-sm-0" src="{{ asset('img/feature-2x.jpg') }}" alt="Image">
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Training Calendar</h4>
-                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                        <h4 class="font-weight-bold">Reduce Downtime</h4>
+                        <p> Our service will enable your car to have back up and running smoothly in short space of time.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-3.jpg" alt="Image">
-                        <i class="flaticon-trends"></i>
+                        <img class="img-fluid mb-3 mb-sm-0" src="{{ asset('img/feature-3x.jpg') }}" alt="Image">
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Free Apps & WiFi</h4>
-                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                        <h4 class="font-weight-bold">Reasonable Pricing</h4>
+                        <p> Our pricing is very reasonable with better discounts for spares and engine oil compared to other local garage and service centers since we do home visit car repair in Sri Lanka.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-4.jpg" alt="Image">
-                        <i class="flaticon-support"></i>
+                        <img class="img-fluid mb-3 mb-sm-0" src="{{ asset('img/feature-4x.jpg') }}" alt="Image">
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Community Support</h4>
-                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                        <h4 class="font-weight-bold">Fully Licensed Company</h4>
+                        <p> Our Company is fully licensed and our technicians and mechanics are NVQ4 qualified with enough experience to repair your car or vehicle.</p>
                     </div>
                 </div>
             </div>
@@ -175,3 +173,5 @@
     <!-- GYM Feature End -->
 
     @endsection
+
+
